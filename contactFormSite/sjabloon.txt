@@ -1,0 +1,20 @@
+Beste,
+$in{MAILFROM} heeft u gecontacteerd
+------------------------------------
+
+E-mailadres: $in{email}
+------------------------------------
+
+Onderwerp: $in{SUBJECT}
+
+------------------------------------
+
+Omschrijving:
+$in{mess}
+
+
+
+
+
+
+K&T Design

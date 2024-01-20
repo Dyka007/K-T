@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Naamloos document</title>
+<link href="contact/css/contactForm.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="formWrap">
+<div id="form">
+<p>
+  <!-- instellingen contactformulier -->
+	<form action="/cgi-bin/form.cgi" method="post">
+		<input type="hidden" name="DEBUG" value="0">
+		<input type="hidden" name="MAILFILE" value="/fransenbjorn/contactFormSite/sjabloon.txt">
+		<input type="hidden" name="MAILTO" value="fransen_brenda@hotmail.com">
+		<input type="hidden" name="REPLYOK" value="/fransenbjorn/contactFormSite/verzonden.htm">
+		<input type="hidden" name="REPLYFAULT" value="/fransenbjorn/contactFormSite/fout.htm">
+        <input type="hidden" name="MAILFROM-TEST" value="^\D+$">
+        <input type="hidden" name="email-TEST" value="^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$">
+  
+  
+  <!-- opmaak contactformulier -->
+  
+</p>
+<p></p>
+<div class="row">
+  <div class="label">Jouw naam<font color="#CC0000">*</font>:</div> <!-- end .label -->
+    <div class="input">
+    <input type="text" id="fullname" class="detail" name="MAILFROM" value="" />
+    </div><!-- end .input -->
+    <div class="context">K&T Design Taartjes.</div><!-- end .context -->
+</div><!-- end .row -->
+    
+    <div class="row">
+    <div class="label">Uw email adres<font color="#CC0000">*</font>:</div> <!-- end .label -->
+    <div class="input">
+    <input type="text" id="email" class="detail" name="email" value="" />
+    </div><!-- end .input -->
+    <div class="context">Uw emailadres word niet gebruikt voor andere doeleinden!</div><!-- end .context -->
+    
+    
+    </div><!-- end .row -->
+    
+     <div class="row">
+    <div class="label">Onderwerp:</div> <!-- end .label -->
+    <div class="input">
+    <input type="text" id="subject" class="detail" name="SUBJECT" value="" />
+    </div><!-- end .input -->
+    
+    
+    </div><!-- end .row -->
+    
+    <div class="row">
+    <div class="label">Uw Bericht:</div> <!-- end .label -->
+    <div class="input">
+	<textarea id="comment" name="mess" class="mess"></textarea>
+    </div><!-- end .input -->
+    </div><!-- end .row -->
+    
+    
+   <div class="submit">
+    <input type="submit" id="submit" name="submit" value="Verzenden" />
+    
+    </div><!-- end .submit -->
+    
+</form>
+</div><!-- end #form -->
+
+</div><!-- end formWrap -->
+
+
+
+
+
+</body>
+</html>

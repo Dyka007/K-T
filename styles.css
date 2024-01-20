@@ -1,0 +1,119 @@
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*text*/
+h1									{font-size:40px; color:#000;}
+h2									{font-size:24px; color:#000;}
+p									{font-size:15px; color:#000;}
+p2									{font-size:15px; color:#000;}
+a									{text-decoration:none; color:#000;}
+
+body								{background-color:#000;}
+
+#wrapper							{width:1400px; background-color:#FFF; margin:0 auto; padding:0 30px;}
+
+#topnav								{widht:1400px; height:18px; background-color:#F90;
+									-moz-border-radius:10px;
+									-moz-box-shadow:2px 2px 5px #999;
+									-webkit-border-radius:10px;
+									-webkit-box-shadow:2px 2px 5px #999;
+}
+
+#social-media-icons					{float:right;}
+#social-media-icons	ul				{margin-top:22px;}
+#social-media-icons ul li			{display:inline;}
+
+
+
+#topnav-buttons						{float:left;}
+#topnav-buttons	ul					{margin-top:35px; margin-bottom:15px; margin-left:25px;}
+#topnav-buttons	ul li				{display:inline;}
+#topnav-buttons ul li a				{font-size:20px; font-weight:bold; margin-right:20px;}
+
+#topnav-buttons a:link				{color:#000}
+#topnav-buttons a:visited			{color:#000}
+#topnav-buttons a:active			{color:#F90}
+#topnav-buttons a:focus				{}
+#topnav-buttons a:hover				{color:#F90;}
+
+
+
+
+#head-content h1					{margin-top:20px;}
+#head-content h2					{margin-top:10px; border-bottom:dotted 1px;}
+
+#banner								{text-align:center;}	
+
+#content							{
+	width: 1400px;
+	margin-top: 10px;
+	text-align: center;
+}
+#content p							{font-size:18px}
+
+#frameholder						{float:left; text align:center;}
+#frameholder 						{margin-top:30px;}
+
+
+#photo-content1						{float:right; margin:10px 0 10px 10px;}
+#photo-content2						{clear:right; float:right; margin:10px 0 10px 10px;}
+
+
+#footer								{clear:both;
+									border-top:dotted 1px;
+									padding:20px;
+									text-align:center;
+									
+}u {
+	text-align: center;
+}
+#wrapper #content p2 {
+	text-align: center;
+}
+#wrapper #content p {
+	text-align: left;
+}
